@@ -9,7 +9,7 @@ const Hero = () => {
       <div className='max-w-[900px] w-[40vw]  relative z-1 m-auto'>
         <img className='' src={Title} alt="" />
       </div>
-      <div className='m-auto w-[80vw] -my-3.5'>
+      <div className='m-auto w-[80vw]  flex  -my-3.5'>
         <video className='m-auto' src={LaptopHero} autoPlay muted></video>
       </div>
       <button className='bg-blue-600 px-4 py-2 md:px-8 md:py-3 text-[10px] md:text-[16px] text-center  rounded-full'>Buy</button>
