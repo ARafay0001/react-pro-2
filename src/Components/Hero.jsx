@@ -1,6 +1,6 @@
 import React from 'react'
-import Title from "../images-videos/public/title.png"
-import LaptopHero  from "../images-videos/public/videos/hero.mp4"
+import Title from "../assets/images-videos/public/title.png"
+import LaptopHero  from "../assets/images-videos/public/videos/hero.mp4"
 const Hero = () => {
   return (
   <main className='w-full h-[calc(100vh-68px)] flex justify-center items-center'>

@@ -1,13 +1,18 @@
 import React from 'react'
-import NavBar from './assets/Components/NavBar'
-import Hero from './assets/Components/Hero'
+import NavBar from './Components/NavBar'
+import Hero from './Components/Hero'
+import CanvasLaptop from './Components/CanvasLaptop'
+import CanvasProvider from "./context/CanvasProvider";
 
 const App = () => {
   return (
-    <div>
+
+    <CanvasProvider>
       <NavBar />
       <Hero />
-    </div>
+      <CanvasLaptop />
+    </CanvasProvider>
+
   )
 }
 
